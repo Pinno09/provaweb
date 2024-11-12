@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina Web Colorata</title>
+    <style>
+        /* Impostazioni di base */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        /* Intestazione */
+        header {
+            background: linear-gradient(90deg, #ff7f50, #ff6347);
+            color: white;
+            text-align: center;
+            padding: 30px;
+        }
+
+        header h1 {
+            font-size: 2.5em;
+            margin: 0;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+        }
+
+        /* Barra di navigazione */
+        nav {
+            background-color: #333;
+            padding: 15px 0;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-size: 1.1em;
+            padding: 12px 25px;
+            margin: 0 10px;
+            transition: background-color 0.3s;
+        }
+
+        nav a:hover {
+            background-color: #ff6347;
+            border-radius: 5px;
+        }
+
+        /* Sezioni principali */
+        .container {
+            width: 80%;
+            margin: 30px auto;
+            padding: 20px;
+        }
+
+        section {
+            background-color: white;
+            padding: 20px;
+            margin-bottom: 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s;
+        }
+
+        section:hover {
+            transform: translateY(-5px);
+        }
+
+        section h2 {
+            color: #ff6347;
+            font-size: 1.8em;
+            margin-bottom: 10px;
+        }
+
+        section p {
+            font-size: 1.1em;
+            color: #555;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+            font-size: 1em;
+        }
+
+        /* Media queries per il mobile */
+        @media (max-width: 768px) {
+            .container {
+                width: 90%;
+            }
+
+            nav a {
+                padding: 10px 15px;
+            }
+
+            header h1 {
+                font-size: 2em;
+            }
+
+            section h2 {
+                font-size: 1.6em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Benvenuto nella Mia Pagina Web Colorata!</h1>
+    </header>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">Chi Sono</a>
+        <a href="#contact">Contatti</a>
+    </nav>
+
+    <div class="container">
+        <section id="home">
+            <h2>Home</h2>
+            <p>Questa è la mia prima pagina web! Sto imparando a creare pagine web moderne e colorate con HTML e CSS. In questa sezione potrai scoprire di più su di me e sui miei progetti!</p>
+        </section>
+
+        <section id="about">
+            <h2>Chi Sono</h2>
+            <p>Sono un appassionato di web design e sviluppo. Mi piace imparare nuove tecnologie e creare esperienze web coinvolgenti. Questa pagina è un piccolo esempio di ciò che posso fare con HTML e CSS!</p>
+        </section>
+
+        <section id="contact">
+            <h2>Contatti</h2>
+            <p>Puoi contattarmi via email all'indirizzo: <a href="mailto:esempio@example.com" style="color: #ff6347; text-decoration: none;">esempio@example.com</a></p>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 La Mia Pagina Web. Tutti i diritti riservati.</p>
+    </footer>
+</body>
+</html>
